@@ -39,6 +39,7 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
+/* [Line Up]:  https://1linelayouts.glitch.me/*/
 .site-container__nav {
     padding: 2rem;
     grid-column: 4 / span 9;
@@ -46,7 +47,23 @@ body {
     display: flex;
     padding: 1rem;
     justify-content: space-around;
+
     list-style-type: none;
+    font-weight: 600;
+}
+
+.site-container__nav li
+{
+    padding: 0.3rem;
+}
+
+#site-dropdown {
+    display: flex;
+    gap: 0.1rem;
+}
+
+#site-dropdown__flag {
+    width: 30px;
 }
 
 .site-container__main {
@@ -57,24 +74,15 @@ body {
 .site-container__footer {
     grid-column: 12/ span 1;
 }
-/* [Line Up]:  https://1linelayouts.glitch.me/*/
-/* ul.site-container__nav {
-    list-style-type: none;
-    font-weight: 600;
 
-    grid-column: 3 / span 9;
-    padding-top: 1.5em;
-
-
-    display: flex;
-    flex-flow: row wrap;
-    padding: 1rem;
-    justify-content: space-around;
-} */
-
-
-/* #site-button__sign-up {
+#site-button__sign-up {
     color: rgb(30 120 181);
     background-color: rgb(255 255 255);
-    padding: 1em;
-} */
+    border-radius: 10%;
+}
+/* NAV END */
+
+
+.site-container__main-card{
+    
+}
