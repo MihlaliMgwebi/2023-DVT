@@ -1,0 +1,10 @@
+* {
+
+}
+
+body {
+    margin: 0; /*clockwise*/
+    /* defualt height and width for predictable layout results */
+    width: 100vh;
+    height: 100vh;
+}
