@@ -1,5 +1,6 @@
 * {
-
+    background-color: rgb(16 171 253);
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -7,4 +8,10 @@ body {
     /* defualt height and width for predictable layout results */
     width: 100vh;
     height: 100vh;
+}
+
+#site {
+    margin: 1em 5em;
+    height: 60em;
+    border: 5px solid black;
 }

@@ -6,7 +6,7 @@ I faced several challenges in accurately recreating the design and layout of the
 The main challenge was ensuring that the elements were positioned correctly and had the correct spacing between them.
 
 ### Action: 
-- Approach:I approached the task by first studying the design and layout of the original website, and then breaking it down into smaller components such as the header, footer, and main content area. 
+- Approach: I approached the task by first studying the design and layout of the original website, and then breaking it down into smaller components such as the header, footer, and main content area. 
 
 - Folder Structure: I then created a new HTML file and linked the CSS file, both with boilerplate code. I created an assets folder.
 
@@ -19,6 +19,11 @@ The main challenge was ensuring that the elements were positioned correctly and 
     - [Pinterest](https://react-icons.github.io/react-icons/search?q=pinterest): FaPinterestP
     - [Instagram](https://react-icons.github.io/react-icons/search?q=instagram): FaInstagram
     - [Help](https://react-icons.github.io/react-icons/search?q=BiHelpCircle): BiHelpCircle
+
+- Find background colors: by insepecting image and using color dropper.
+
+-  Find font using [WhatTheFont](https://www.myfonts.com/pages/whatthefont) and [Google Fonts](https://fonts.google.com/specimen/Roboto?preview.text=Welcome%20to%20WANDERLUST.%20Jobs%20fill%20your%20pocket,%20adventures%20fill%20your%20soul&preview.text_type=custom&query=Roboto).
+
 #### Result: 
 
 
