@@ -24,6 +24,9 @@ The main challenge was ensuring that the elements were positioned correctly and 
 
 -  Find font using [WhatTheFont](https://www.myfonts.com/pages/whatthefont) and [Google Fonts](https://fonts.google.com/specimen/Roboto?preview.text=Welcome%20to%20WANDERLUST.%20Jobs%20fill%20your%20pocket,%20adventures%20fill%20your%20soul&preview.text_type=custom&query=Roboto).
 
+- Watched [layout YT video](https://www.youtube.com/watch?v=qm0IfG1GyZU) by Google to choose a layout. I chose the [12 Span Grid](https://1linelayouts.glitch.me/) to place my divs within this grid wherever and however I want.
+
+
 #### Result: 
 
 

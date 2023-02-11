@@ -1,5 +1,4 @@
 * {
-    background-color: rgb(16 171 253);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -7,21 +6,45 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
+
+    background-color: rgb(16 171 253);
     
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #site-container {
     width: 96%;
     height: 90%;
  
-    border: 10px solid black;
-    border-radius: 30px;
+    border: 6px solid black;
+    border-radius: 10px;
 
     display: grid;
-    grid-template-columns: minmax(150px, 25%) auto; /*sidebar says*/
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(12, 1fr);
 }
+
+.site-container__sidebar{
+    background-color: rgb(242 242 242) ;
+}
+
+.site-container__content{
+    background-image: url("./assets/ko-tao-island-1500x1088-jpeg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.span-3 {
+    grid-column: 1 / span 3;
+}
+
+.span-9 {
+    grid-column: 4 / span 9;
+}
+
 
 
