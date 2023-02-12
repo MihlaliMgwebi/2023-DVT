@@ -35,10 +35,31 @@ body {
 
 
 .site-container__sidebar {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 4;
     grid-row: 1 / span 12;
     border-radius: 20px 0px 0px 20px;
     background-color: rgb(242 242 242) ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.site_footer__socials {
+    display: flex;
+    justify-content: space-evenly;
+    height: 2rem;
+    margin: 2rem 0rem 2rem 2rem;
+    width: 17rem;
+}
+
+.site_footer__socials div{
+    background-color: rgb(16 171 253);
+    border-radius: 50%;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* [Holy Grail Layout]: https://1linelayouts.glitch.me/ */
 .site-container__content {
@@ -191,6 +212,6 @@ div .site-main-card__nav-item:first-of-type{
     grid-area: 12 /12 /span 1/span 1;
     display: flex;
     flex-direction: column;
-    margin-right: 1em;
+    margin: 2rem 2rem 2rem 0rem;
     justify-content: center;
 }
