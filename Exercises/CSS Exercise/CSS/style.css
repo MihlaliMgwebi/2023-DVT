@@ -135,7 +135,8 @@ div .site-main-card__nav-item:first-of-type{
 
 /* [inputs share row]:https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 .site-main-card__form > * {
-    flex: 1 50%;
+    flex: 1 30%;
+    padding: 5%;
 }
 
 .site-main-card__form-input div:last-of-type {
