@@ -3,6 +3,7 @@ body {
     height: 100vh;
     margin:0;
 
+    font-family: 'Roboto', sans-serif;
     color: rgb(242 242 242);
     background-color: black;
     display: flex;
@@ -176,3 +177,20 @@ div .site-main-card__nav-item:first-of-type{
     border-radius: 0.75em;
 } 
 /* FOOTER */
+/* .site_footer__socials{
+    grid-area: 12 /1 /span 1/span 4;
+    background-color: black;
+    display: flex;
+}
+
+.site_footer__socials > * {
+    background-color: rgb(16 171 253);
+} */
+
+.site_footer__help-icon {
+    grid-area: 12 /12 /span 1/span 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+    justify-content: center;
+}
