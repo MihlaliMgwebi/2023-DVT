@@ -27,19 +27,15 @@ body {
     border-radius: 35px;
 
     display: grid;
-    grid-template: repeat(12, 1fr)/repeat(12, 1fr);
+    grid-template: repeat(12, 1fr)/repeat(11, 1fr);
 }
-
 
 .site-container__sidebar {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 12;
-    border-radius: 20px 0px 0px 20px;
-    background-color: rgb(242 242 242) ;
+    grid-area: 1 / 1 / span 12 / span 2;
 }
-/* [Holy Grail Layout]: https://1linelayouts.glitch.me/ */
+
 .site-container__content {
-    grid-area: 1 / 4 / span 12 / span 9;
+    grid-area: 1 / 3 / span 12 / span 9;
 
     
     border-radius: 0px 20px 20px 0px;
@@ -47,58 +43,51 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-
-    display: grid;
-    grid-template-rows: auto 1fr auto;
 }
 
-/* [Line Up]:  https://1linelayouts.glitch.me/*/
 .site-container__nav {
-    padding: 2rem;
-    grid-column: 4 / span 9;
-    
+    grid-area: 1 / 4 / 1/ span 8;
+
     display: flex;
-    padding: 1rem;
-    justify-content: space-around;
-
     list-style-type: none;
-    font-weight: 600;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+    margin: 0.5em 0em 0em 2em;
 }
 
-.site-container__nav li
-{
-    padding: 0.3rem;
+.site-container__nav li {
+    padding: 0.5em;
 }
-
 #site-dropdown {
     display: flex;
-    gap: 0.1rem;
 }
-
 #site-dropdown__flag {
     width: 30px;
+    background-image: url("./assets/flag-1772x1181-png.png");
 }
 
-#site-button__sign-up {
+.site-button__hover {
     color: rgb(30 120 181);
     background-color: rgb(255 255 255);
     border-radius: 10%;
 }
-/* NAV END */
 
-/* MAIN */
+.footer {
+    grid-column: 1 / span 11;
+    grid-row: 12;
+}
+
 .site-container__main {
-    grid-column: 2 / span 10;
-    grid-row: 3/ span 8;
+    grid-area: 3 / 1/ span 8/ span 11;
 
     display: grid;
     grid-template: repeat(12,1fr) /repeat(12,1fr);/*card and text*/
 }
 
 .site-container__main-text {
-    grid-column: 7/ span 3;
-    grid-row: 3/span 5;
-    padding: 5rem;
+    grid-area: 3 / 6/ span 5/ span 6;
+
     font-size: xx-large;
     font-weight: 200;
     line-height: 25px;
@@ -116,6 +105,7 @@ body {
    
     display: grid;
     grid-template: 1fr 6fr/ 1fr; 
+    margin-left: 3em;
 }
 .site-main-card__nav{
     grid-column: 1/span 4;
@@ -184,4 +174,3 @@ div .site-main-card__nav-item:first-of-type{
     border: none;
     border-radius: 0.75em;
 } 
-/* FOOTER */
