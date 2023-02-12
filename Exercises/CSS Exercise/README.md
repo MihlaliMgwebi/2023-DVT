@@ -26,6 +26,7 @@ The main challenge was ensuring that the elements were positioned correctly and 
 
 - Watched [layout YT video](https://www.youtube.com/watch?v=qm0IfG1GyZU) by Google to choose a layout. I chose the [12 Span Grid](https://1linelayouts.glitch.me/) to place my divs within this grid wherever and however I want.
 
+5:55 / 17:30
 
 #### Result: 
 
