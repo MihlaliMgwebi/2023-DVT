@@ -43,8 +43,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
+.site-container__logo {
+    width: 10em;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+}
+
+.site-container__logo img{
+    width: 50%;
+    height: 50%;
+}
 .site_footer__socials {
     display: flex;
     justify-content: space-evenly;
