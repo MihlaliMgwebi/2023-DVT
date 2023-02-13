@@ -225,7 +225,14 @@ div .site-main-card__nav-item:first-of-type{
     color: rgb(255 255 255);;
     border: none;
     border-radius: 0.75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
+
+.site-main-card__form-input svg{
+    margin-right: 0.2em;
+}
 /* FOOTER */
 /* .site_footer__socials{
     grid-area: 12 /1 /span 1/span 4;
