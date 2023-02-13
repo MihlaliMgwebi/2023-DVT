@@ -7,7 +7,8 @@ I was tasked with creating a flight tracking app. I must:
 - Use [Leaflet](https://leafletjs.com/) with openstreetmap (it's the default used in all leaflet demos) to display a selected flight's current position on the map.
 
 ### Tension:
-
+1. Blocked by CORS policy.
+I 
 ### Action: 
 
 ### Result
