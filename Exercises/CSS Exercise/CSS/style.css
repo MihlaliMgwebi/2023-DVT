@@ -10,7 +10,7 @@ body {
     justify-content: center;
 }
 .site-container__blue-bg {
-    width: 80%;
+    width: 75%;
     background-color: rgb(16 171 253);
 
     display: flex;
@@ -96,9 +96,8 @@ body {
     display: flex;
     padding: 1rem;
     justify-content: space-around;
-
+    font-weight: 500;
     list-style-type: none;
-    font-weight: 600;
 }
 
 .site-container__nav li
@@ -229,7 +228,9 @@ div .site-main-card__nav-item:first-of-type{
     justify-content: center;
     align-items: center;
 } 
-
+.site-main-card__form-input button svg {
+    stroke-width:0.1em;
+}
 .site-main-card__form-input svg{
     margin-right: 0.2em;
 }
